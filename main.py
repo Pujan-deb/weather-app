@@ -80,7 +80,7 @@ class WeatherApp(QWidget):
         """)
         self.get_weather_button.clicked.connect(self.get_weather)
     def get_weather(self):
-        api = os.getenv("SECRET_KEY")
+        api = "8323f30718f0d672af49d82b7e83ef0d"
         name = self.city_input.text()
 
         if name:
